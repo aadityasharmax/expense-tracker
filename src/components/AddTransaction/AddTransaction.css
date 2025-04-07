@@ -1,0 +1,14 @@
+.input-field{
+    height:50px;
+    width:350px;
+    background-color: #dfe5ec;
+    padding:5px;
+    border-radius: 10px;
+    color:black;
+    outline:none;
+}
+
+.label{
+    color:#f8fafc;
+    margin-bottom:10px;
+}
