@@ -50,7 +50,7 @@ const AddTransaction = ({ balance, setBalance, setTransactions }) => {
     setDescription("");
   };
   return (
-    <div className="bg-[#1e293b] p-3  rounded-2xl ">
+    <div className="bg-[#1e293b] p-3  rounded-2xl w-[320px]">
       <h1 className="text-2xl text-[#dfe5ec] text-center mb-5">
         Add Transaction
       </h1>

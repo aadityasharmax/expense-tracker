@@ -31,7 +31,7 @@ const Home = () => {
           setBalance={setBalance}
           setTransactions={setTransactions}
         />
-        <TransactionList
+        <TransactionList        
           transactions={transactions}
           setTransactions={setTransactions}
           setBalance={setBalance}
