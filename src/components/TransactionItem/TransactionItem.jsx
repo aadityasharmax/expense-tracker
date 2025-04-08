@@ -14,12 +14,12 @@ const TransactionItem = ({ transaction , setTransactions , setBalance }) => {
 
   return (
     <>
-    <li className="flex gap-6 bg-slate-800 p-2 rounded mb-2 shadow">
-      <span className="text-white text-xl font-bold">{transaction.description}</span>
-      <span className={`${amountStyle} text-xl font-bold`}>
+    <li className="flex gap-6 justify-between p-2 rounded mb-2">
+      <span className="text-white text-sm  text-wrap md:text-xl ">{transaction.description}</span>
+      <span className={`${amountStyle} text-sm  text-wrap md:text-xl`}>
         {sign}₹{Math.abs(transaction.amount)}
       </span>
-      <MdDelete className="text-2xl text-red-600 cursor-pointer"  onClick={handleDelete}/>
+      <MdDelete className="text-xl text-red-600 cursor-pointer md:text-2xl"   onClick={handleDelete}/>
     </li>
     </>
   );
